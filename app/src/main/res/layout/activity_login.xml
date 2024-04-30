@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="0dp"
-    tools:context=".MainActivity">
+    tools:context=".Activity.IntroActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="0.41" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/e1"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
@@ -46,7 +46,7 @@
 
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/e1"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
@@ -76,7 +76,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+        app:layout_constraintTop_toBottomOf="@+id/e1" />
 
     <Button
         android:id="@+id/button2"
